@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.dashboard-main-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.dashboard-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.dashboard-card {
+  /* border: 1px solid red; */
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #6e8efb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  margin: 0 auto 15px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-info,
+.supply-info {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.user-info p,
+.supply-info p {
+  margin: 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.month-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+.month-container h4 {
+  margin-right: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.supply-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.supply-table th,
+.supply-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.supply-table th {
+  background-color: #6e8efb;
+  color: white;
+}
+
+.supply-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 480px) {
+  .dashboard-card {
+    padding: 20px;
+  }
+
+  
+}
